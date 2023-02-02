@@ -22,6 +22,7 @@ export default function Home() {
         href="https://www.instagram.com/9imyen/"
         className="whole"
         target="_blank"
+        rel="noreferrer"
       >
         <div className="whole"></div>
       </a>
