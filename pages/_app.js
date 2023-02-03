@@ -4,7 +4,7 @@ import { GoogleAnalytics } from "nextjs-google-analytics";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GoogleAnalytics trackPageViews />
+      <GoogleAnalytics strategy="lazyOnload" />
       <Component {...pageProps} />
     </>
   );
